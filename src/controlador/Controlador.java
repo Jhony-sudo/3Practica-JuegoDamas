@@ -18,9 +18,7 @@ public class Controlador {
     }
 
     public void Jugar() {
-        tablero.inicializarTablero();
-        tablero.inicializarFichas(1, 2, true, "BB");
-        tablero.inicializarFichas(4, 6, false, "NN");
+
         do {
             if (Jugador1.getNegra()) {
                 System.out.println("Turno Fichas Negras: " + Jugador1.getNombre());

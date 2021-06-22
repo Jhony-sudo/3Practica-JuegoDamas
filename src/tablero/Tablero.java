@@ -14,9 +14,9 @@ public class Tablero {
         this.x = x;
         this.y = y;
         tablero = new Celda[x][y];
-        // inicializarTablero();
-        // inicializarFichas(0, 3, true, "BB");
-        // inicializarFichas(5, 8, false, "NN");
+        inicializarTablero();
+        inicializarFichas(0, 3, true, "BB");
+        inicializarFichas(5, 8, false, "NN");
 
     }
 
