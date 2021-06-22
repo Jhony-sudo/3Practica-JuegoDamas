@@ -60,7 +60,7 @@ public class Controlador {
                 }
             }
         }
-        if (HayBlancas || HayNegras) {
+        if (!HayBlancas || !HayNegras) {
             res = false;
             Jugador1.setPartidasJugadas(Jugador1.getPartidasJugadas() + 1);
             Jugador2.setPartidasJugadas(Jugador2.getPartidasJugadas() + 1);
